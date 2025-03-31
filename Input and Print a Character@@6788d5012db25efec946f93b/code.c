@@ -3,7 +3,7 @@
 int main()
 {
     int a;
-    scanf(%d, &a);
-    printf("You entered: %d" &a);
-    return 0
+    scanf("%d", &a); // Corrected the format string
+    printf("You entered: %d\n", a); // Added a comma and a newline character
+    return 0; // Added a semicolon
 }
