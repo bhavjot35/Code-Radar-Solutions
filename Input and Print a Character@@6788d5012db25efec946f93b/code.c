@@ -2,8 +2,8 @@
 
 int main()
 {
-    int a;
-    scanf("%d", &a); // Corrected the format string
-    printf("You entered: %d\n", a); // Added a comma and a newline character
-    return 0; // Added a semicolon
+    char a;
+    scanf("%f", &a);
+    printf("You entered: %f\n", a); 
+    return 0; 
 }
